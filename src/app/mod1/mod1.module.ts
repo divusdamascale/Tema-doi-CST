@@ -15,7 +15,9 @@ import { Comp3Component } from './comp3/comp3.component';
   ],
   imports: [
     CommonModule,
-    Mod1RoutingModule
+    Mod1RoutingModule,
+    
+   
   ]
 })
 export class Mod1Module { }

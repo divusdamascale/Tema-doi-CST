@@ -10,6 +10,7 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {Mod1Module} from './mod1/mod1.module'
 
 registerLocaleData(en);
 
@@ -22,7 +23,9 @@ registerLocaleData(en);
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    Mod1Module
+
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US }
