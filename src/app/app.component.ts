@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NzModalModule } from 'ng-zorro-antd/modal';
+
 
 @Component({
   selector: 'app-root',

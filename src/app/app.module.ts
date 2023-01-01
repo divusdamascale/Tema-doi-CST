@@ -10,13 +10,19 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {Mod1Module} from './mod1/mod1.module'
+import {Mod1Module} from './mod1/mod1.module';
+import { NzModalModule } from 'ng-zorro-antd/modal';
+import { Modal1Component } from './modal1/modal1.component';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+
+
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Modal1Component
   ],
   imports: [
     BrowserModule,
@@ -24,7 +30,10 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    Mod1Module
+    Mod1Module,
+    NzModalModule,
+    NzButtonModule
+    
 
   ],
   providers: [
