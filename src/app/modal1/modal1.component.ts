@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
 })
 export class Modal1Component {
   isVisible = false;
-
+  currentInformation = "@input() works fine with information passed from parent component";
   constructor() {}
-
+  
   showModal(): void {
     this.isVisible = true;
   }
@@ -22,4 +22,6 @@ export class Modal1Component {
     console.log('Button cancel clicked!');
     this.isVisible = false;
   }
+
+  
 }
