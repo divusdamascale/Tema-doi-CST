@@ -14,6 +14,7 @@ import {Mod1Module} from './mod1/mod1.module';
 import { NzModalModule } from 'ng-zorro-antd/modal';
 import { Modal1Component } from './modal1/modal1.component';
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { ModalDisplayComponent } from './modal-display/modal-display.component';
 
 
 
@@ -22,7 +23,8 @@ registerLocaleData(en);
 @NgModule({
   declarations: [
     AppComponent,
-    Modal1Component
+    Modal1Component,
+    ModalDisplayComponent
   ],
   imports: [
     BrowserModule,
